@@ -1,4 +1,4 @@
-FROM openjdk:8-jre
+FROM ibm-semeru-runtimes:open-23-jre-jammy
 
 # Install pbzip2 for parallel extraction
 RUN apt-get update \
