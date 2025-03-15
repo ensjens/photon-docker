@@ -5,6 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     image: ghcr.io/ensjens/photon-docker:0.6.1
+    restart: unless-stopped
     volumes:
       - data:/photon/photon_data
     ports:
